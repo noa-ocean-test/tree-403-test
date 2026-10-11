@@ -1,0 +1,21 @@
+name: "Status"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  status:
+    name: Status
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Print branch and commit
+        run: |
+          echo "ref=${GITHUB_REF}"
+          echo "sha=${GITHUB_SHA}"
