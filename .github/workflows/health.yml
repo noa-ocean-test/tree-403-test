@@ -1,0 +1,22 @@
+name: "Health"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  health:
+    name: Health check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm repository layout
+        run: |
+          test -f vuln.js
+          test -d .github/workflows
+          echo "ok"
