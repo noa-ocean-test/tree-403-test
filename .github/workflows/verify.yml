@@ -1,0 +1,22 @@
+name: "Verify"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: Verify
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify workflow count
+        run: |
+          count=$(ls .github/workflows/*.yml | wc -l | tr -d ' ')
+          echo "workflows=$count"
+          test "$count" -ge 1
