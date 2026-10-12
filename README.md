@@ -14,3 +14,5 @@ Test repository for GitHub Actions workflows (CodeQL, CI, and related checks).
 ## Notes
 
 Updated on 2026-10-12.
+
+Default branch is `main`. Workflows run on push and pull requests to `main`.
