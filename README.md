@@ -12,3 +12,5 @@ Test repository for GitHub Actions workflows (CodeQL, CI, and related checks).
 - `Status` — prints ref and commit SHA
 
 ## Notes
+
+Default branch is `main`. Last updated 2026-10-12.
