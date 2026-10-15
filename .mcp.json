@@ -2,7 +2,10 @@
   "mcpServers": {
     "demo": {
       "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/server.js"]
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server.js"],
+      "env": {
+        "PLUGIN_ENV": "test"
+      }
     }
   }
 }
