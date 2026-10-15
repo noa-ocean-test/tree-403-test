@@ -2,7 +2,7 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "dev" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
@@ -48,8 +48,7 @@ jobs:
 #fvurufvhwieufvhnwriuvhisudfvhied243fd13rf13rf
 #fvurufvhwieufvhnwriuvhisudfvhied243fd13rf13fergergerf
 #fvurufvhwieufvhnwriuvhisudfvhied243fd13rf13rf
-#fvurufvhwiecsdcsdcsdcuf      vhnwriuvhisudfvhied243fd13rf13rf
-
+#fvurufvhwiecsdcsdcsdcuf    b ffgb fgb fg gf fg f
 #fvurufvhwieufvhnwriuvhisudfvhied243fd13rf13rf
 #fvurufvhwieufvhnwriuvhisudfvhied243fd13rf13rf
 
