@@ -1,6 +1,7 @@
 stages:
   - validate
   - verify
+  - deploy
 
 workflow:
   rules:
@@ -30,3 +31,18 @@ verify:layout:
   rules:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     - if: $CI_COMMIT_BRANCH
+
+deploy:staging:
+  stage: deploy
+  image: alpine:3.20
+  needs:
+    - verify:layout
+  environment:
+    name: staging
+    url: https://gitlab.com/$CI_PROJECT_PATH/-/environments
+  script:
+    - echo "Deploying $CI_COMMIT_SHA to staging"
+    - echo "project=$CI_PROJECT_PATH"
+    - echo "deployment ok"
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
