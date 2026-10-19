@@ -29,5 +29,6 @@ deploy_staging:
   script:
     - echo "Deploying $CI_COMMIT_SHA to staging"
     - echo "deployment ok"
+    - echo "trigger after identity verification"
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
