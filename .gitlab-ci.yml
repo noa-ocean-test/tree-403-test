@@ -30,6 +30,6 @@ deploy_staging:
     - echo "Deploying $CI_COMMIT_SHA to staging"
     - echo "deployment ok"
     - echo "trigger after identity verification"
-    - echo "refresh 2026-10-19T18:23"
+    - echo "refresh 2026-10-19T18:25"
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
