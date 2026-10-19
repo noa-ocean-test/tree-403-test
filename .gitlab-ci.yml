@@ -3,37 +3,26 @@ stages:
   - verify
   - deploy
 
-workflow:
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-    - if: $CI_COMMIT_BRANCH
-
-validate:syntax:
+validate_syntax:
   stage: validate
   image: alpine:3.20
   script:
     - echo "validate ok"
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-    - if: $CI_COMMIT_BRANCH
 
-verify:layout:
+verify_layout:
   stage: verify
   image: alpine:3.20
   needs:
-    - validate:syntax
+    - validate_syntax
   script:
     - test -f .gitlab-ci.yml
     - echo "layout ok"
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-    - if: $CI_COMMIT_BRANCH
 
-deploy:staging:
+deploy_staging:
   stage: deploy
   image: alpine:3.20
   needs:
-    - verify:layout
+    - verify_layout
   environment:
     name: staging
     url: https://example.com/staging
