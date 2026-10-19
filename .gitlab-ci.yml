@@ -26,6 +26,7 @@ verify:layout:
     - test -f .gitlab-ci.yml
     - test -d .github/workflows
     - echo "layout ok"
+    - echo "pipeline refresh 2026-10-19"
   rules:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     - if: $CI_COMMIT_BRANCH
