@@ -1,0 +1,31 @@
+stages:
+  - validate
+  - verify
+
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH
+
+validate:syntax:
+  stage: validate
+  image: node:20-alpine
+  script:
+    - node --check vuln.js
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH
+
+verify:layout:
+  stage: verify
+  image: alpine:3.20
+  needs:
+    - validate:syntax
+  script:
+    - test -f vuln.js
+    - test -f .gitlab-ci.yml
+    - test -d .github/workflows
+    - echo "layout ok"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH
