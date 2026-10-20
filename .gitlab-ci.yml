@@ -47,3 +47,17 @@ deploy_production:
     - echo "production deployment ok"
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+deploy_canary:
+  stage: deploy
+  image: alpine:3.20
+  needs:
+    - deploy_production
+  environment:
+    name: canary
+    url: https://example.com/canary
+  script:
+    - echo "Deploying $CI_COMMIT_SHA to canary"
+    - echo "canary deployment ok"
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
