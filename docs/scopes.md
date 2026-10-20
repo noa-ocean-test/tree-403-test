@@ -7,5 +7,7 @@ Exercise these GitLab entities for Port incremental sync:
 - pipeline
 - deployment
 
-Related issue: #3
+Related issues: #3, #4
+
+Round: 2 (2026-10-20)
 
