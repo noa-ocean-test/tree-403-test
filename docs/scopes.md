@@ -9,5 +9,5 @@ Exercise these GitLab entities for Port incremental sync:
 
 Related issues: #3, #4
 
-Round: 2 (2026-10-20)
+Round: 3 (2026-10-26)
 
