@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-incremental
+  description: Test repository for Port incremental sync (CI, deployments, skills)
+  annotations:
+    gitlab.com/project-slug: port-group1985442/test-incremental
+    backstage.io/source-location: url:https://gitlab.com/port-group1985442/test-incremental
+  tags:
+    - gitlab
+    - ci
+    - port
+spec:
+  type: service
+  lifecycle: experimental
+  owner: noa-mashevich5
+  system: port-group1985442
