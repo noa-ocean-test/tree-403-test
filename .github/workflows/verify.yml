@@ -20,3 +20,4 @@ jobs:
           count=$(ls .github/workflows/*.yml | wc -l | tr -d ' ')
           echo "workflows=$count"
           test "$count" -ge 1
+          echo "verify refresh 2026-10-29 round 4"

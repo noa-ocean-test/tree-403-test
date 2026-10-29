@@ -1,8 +1,9 @@
 {
   "name": "tree-403-test",
   "description": "Test plugin for Port incremental sync",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "author": {
     "name": "Noa"
-  }
+  },
+  "updated": "2026-10-29"
 }

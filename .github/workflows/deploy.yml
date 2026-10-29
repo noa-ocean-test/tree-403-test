@@ -21,6 +21,7 @@ jobs:
           echo "Deploying ${GITHUB_SHA} to staging"
           echo "github deployment ok"
           echo "workflow refresh 2026-10-29"
+          echo "bulk sync round 4"
 
   deploy-production:
     name: Deploy production

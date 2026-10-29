@@ -8,7 +8,12 @@
 # Skills and plugin files
 skills/ @noa-mashevich5
 .claude-plugin/ @noa-mashevich5
+agents/ @noa-mashevich5
 
 # Docs and tests
 docs/ @noa-mashevich5
 test/ @noa-mashevich5
+newdir/ @noa-mashevich5
+newdir2/ @noa-mashevich5
+newdir3/ @noa-mashevich5
+testsss/ @noa-mashevich5

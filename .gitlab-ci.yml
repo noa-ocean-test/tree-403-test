@@ -8,6 +8,7 @@ validate_syntax:
   image: alpine:3.20
   script:
     - echo "validate ok"
+    - echo "refresh 2026-10-29 round 4"
 
 verify_layout:
   stage: verify
@@ -17,6 +18,7 @@ verify_layout:
   script:
     - test -f .gitlab-ci.yml
     - echo "layout ok"
+    - echo "refresh 2026-10-29 round 4"
 
 deploy_staging:
   stage: deploy
