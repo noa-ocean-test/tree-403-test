@@ -20,6 +20,7 @@ jobs:
         run: |
           echo "Deploying ${GITHUB_SHA} to staging"
           echo "github deployment ok"
+          echo "workflow refresh 2026-10-29"
 
   deploy-production:
     name: Deploy production
@@ -36,3 +37,21 @@ jobs:
         run: |
           echo "Deploying ${GITHUB_SHA} to production"
           echo "github production deployment ok"
+          echo "workflow refresh 2026-10-29"
+
+  deploy-canary:
+    name: Deploy canary
+    needs: deploy-production
+    runs-on: ubuntu-latest
+    environment:
+      name: canary
+      url: https://example.com/canary
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy to canary
+        run: |
+          echo "Deploying ${GITHUB_SHA} to canary"
+          echo "github canary deployment ok"
+          echo "workflow refresh 2026-10-29"
