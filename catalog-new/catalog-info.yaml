@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-incremental-catalog-new
+  description: Catalog entity under catalog-new for incremental sync tests
+  annotations:
+    gitlab.com/project-slug: port-group1985442/test-incremental
+    backstage.io/source-location: url:https://gitlab.com/port-group1985442/test-incremental/-/tree/main/catalog-new
+  tags:
+    - gitlab
+    - catalog
+    - nested
+spec:
+  type: service
+  lifecycle: experimental
+  owner: noa-mashevich5
+  system: port-group1985442
+# added 2026-11-02
