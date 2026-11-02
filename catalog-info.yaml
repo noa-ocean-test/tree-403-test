@@ -10,8 +10,14 @@ metadata:
     - gitlab
     - ci
     - port
+    - catalog
+  links:
+    - url: https://gitlab.com/port-group1985442/test-incremental
+      title: Repository
+      icon: gitlab
 spec:
   type: service
   lifecycle: experimental
   owner: noa-mashevich5
   system: port-group1985442
+# refreshed 2026-11-02

@@ -3,6 +3,12 @@ kind: Location
 metadata:
   name: test-incremental-docs
   description: Docs catalog location for incremental sync tests
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - docs
+    - catalog
 spec:
   type: url
   target: ./README.md
+# refreshed 2026-11-02
