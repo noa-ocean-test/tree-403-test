@@ -12,3 +12,4 @@ Use this skill when testing root-level `SKILL.md` discovery for the plugin.
 1. Confirm this file is at the repository root.
 2. Respond with a short sync acknowledgment when invoked.
 3. Added 2026-11-02.
+4. Refreshed 2026-11-02 round 2.

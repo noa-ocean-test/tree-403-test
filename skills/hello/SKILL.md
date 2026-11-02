@@ -12,3 +12,4 @@ Use this skill for a short greeting-style plugin skill during sync tests.
 1. Confirm the plugin namespace is `test-incremental`.
 2. Respond with a short hello acknowledgment when invoked.
 3. Added 2026-11-02.
+4. Refreshed 2026-11-02 round 2.
