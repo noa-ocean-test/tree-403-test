@@ -1,0 +1,9 @@
+{
+  "name": "test-incremental",
+  "description": "Test plugin for Port incremental sync on GitLab",
+  "version": "0.2.0",
+  "author": {
+    "name": "Noa"
+  },
+  "updated": "2026-11-02"
+}
