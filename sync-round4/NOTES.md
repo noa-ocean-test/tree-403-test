@@ -1,5 +1,3 @@
 # Sync round 4
 
-Bulk folder refresh created 2026-10-29.
-
-Purpose: exercise file and folder incremental sync across many paths.
+Refreshed 2026-11-08T16:39Z as part of GH-1.

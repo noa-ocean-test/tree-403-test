@@ -1,4 +1,3 @@
 # newdir
 
-Top-level folder added 2026-10-14.
-Refreshed 2026-10-29 for incremental sync round 4.
+Refreshed 2026-11-08T16:39Z GH-1.
