@@ -3,7 +3,12 @@
     "GitLab": {
       "type": "http",
       "url": "https://gitlab.com/api/v4/mcp",
-      "description": "GitLab MCP for Port incremental sync tests (refreshed 2026-10-29)"
+      "description": "GitLab MCP refreshed 2026-11-08T16:39Z for GitHub repo sync tests"
+    },
+    "demo": {
+      "command": "node",
+      "args": ["server.js"],
+      "env": {"PLUGIN_REFRESH": "2026-11-08T16:39Z"}
     }
   }
 }
