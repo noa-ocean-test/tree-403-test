@@ -11,3 +11,5 @@ Use this skill when validating `.opencode/skills/**/SKILL.md` on GitHub.
 
 1. Confirm path is `.opencode/skills/gh-round6/SKILL.md`.
 2. Added 2026-11-11T15:03Z GH-6.
+
+<!-- refreshed 2026-11-11T16:06Z GH-7 -->

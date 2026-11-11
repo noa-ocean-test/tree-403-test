@@ -16,3 +16,5 @@ Use this skill when validating `.github/skills/**/SKILL.md` discovery.
 <!-- refreshed 2026-11-11T14:44Z GH-5 -->
 
 <!-- refreshed 2026-11-11T15:03Z GH-6 -->
+
+<!-- refreshed 2026-11-11T16:06Z GH-7 -->

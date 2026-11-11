@@ -8,4 +8,4 @@ GitHub entities for Port incremental sync:
 - plugin
 - mcp
 
-Round: GH-6 (2026-11-11T15:03Z)
+Round: GH-7 (2026-11-11T16:06Z) — commit only
