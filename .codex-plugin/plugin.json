@@ -1,9 +1,9 @@
 {
   "name": "tree-403-test-codex",
   "description": "Codex plugin manifest for GitHub PLUGIN_MANIFEST_PATHS sync",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Noa"
   },
-  "updated": "2026-11-11T14:44Z"
+  "updated": "2026-11-11T15:03Z"
 }

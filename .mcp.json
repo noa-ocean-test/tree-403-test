@@ -5,7 +5,7 @@
       "args": ["${CLAUDE_PLUGIN_ROOT}/server.js"],
       "env": {
         "PLUGIN_ENV": "test",
-        "PLUGIN_REFRESH": "2026-11-11T14:44Z-GH-5"
+        "PLUGIN_REFRESH": "2026-11-11T15:03Z-GH-6"
       }
     }
   }

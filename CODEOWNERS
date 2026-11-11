@@ -9,6 +9,7 @@
 skills/ @noa-mashevich5
 .claude-plugin/ @noa-mashevich5
 .cursor-plugin/ @noa-mashevich5
+.codex-plugin/ @noa-mashevich5
 agents/ @noa-mashevich5
 
 # Docs and tests
@@ -24,4 +25,5 @@ bulk-gh-2/ @noa-mashevich5
 bulk-gh-3/ @noa-mashevich5
 bulk-gh-4/ @noa-mashevich5
 bulk-gh-5/ @noa-mashevich5
-# refreshed 2026-11-11T14:44Z GH-5
+bulk-gh-6/ @noa-mashevich5
+# refreshed 2026-11-11T15:03Z GH-6

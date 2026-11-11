@@ -10,4 +10,4 @@ Use this skill for plugin install or sync tests.
 ## Instructions
 
 1. Confirm the plugin namespace prefix is `tree-403-test`.
-2. Refreshed 2026-11-11T14:44Z round GH-5.
+2. Refreshed 2026-11-11T15:03Z round GH-6.
