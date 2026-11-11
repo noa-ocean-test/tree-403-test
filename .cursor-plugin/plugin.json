@@ -1,9 +1,9 @@
 {
   "name": "tree-403-test-cursor",
   "description": "Cursor plugin manifest for GitHub PLUGIN_MANIFEST_PATHS sync",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "author": {
     "name": "Noa"
   },
-  "updated": "2026-11-11T13:36Z"
+  "updated": "2026-11-11T14:44Z"
 }

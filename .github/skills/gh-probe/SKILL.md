@@ -11,3 +11,6 @@ Use this skill when validating `.github/skills/**/SKILL.md` discovery.
 
 1. Confirm path is `.github/skills/gh-probe/SKILL.md`.
 2. Refreshed 2026-11-11T13:36Z round GH-4.
+
+
+<!-- refreshed 2026-11-11T14:44Z GH-5 -->

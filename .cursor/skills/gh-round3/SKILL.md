@@ -11,3 +11,6 @@ Use this skill when validating `.cursor/skills/**/SKILL.md` on GitHub.
 
 1. Confirm path is `.cursor/skills/gh-round3/SKILL.md`.
 2. Refreshed 2026-11-11T13:36Z GH-4.
+
+
+<!-- refreshed 2026-11-11T14:44Z GH-5 -->

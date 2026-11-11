@@ -5,3 +5,6 @@ description: Lightweight code reviewer subagent for plugin sync tests.
 
 You are a concise code reviewer. Focus on correctness, clarity, and risk.
 Refreshed 2026-11-11T13:36Z GH-4.
+
+
+<!-- refreshed 2026-11-11T14:44Z GH-5 -->
