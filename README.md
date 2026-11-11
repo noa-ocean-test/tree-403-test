@@ -15,6 +15,6 @@ Test repository for GitHub Actions workflows (CodeQL, CI, and related checks).
 
 ## Notes
 
-Default branch is `main`. Last updated 2026-11-08T16:39Z.
-Bulk GitHub sync refresh round GH-1.
-Includes skills, plugins, and MCP configs.
+Default branch is `main`. Last updated 2026-11-11T10:29Z.
+Includes skills, plugins, and MCP configs for Port/Ocean sync tests.
+Bulk GitHub sync refresh round GH-2.
