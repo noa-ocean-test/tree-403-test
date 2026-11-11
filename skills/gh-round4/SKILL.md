@@ -1,0 +1,13 @@
+---
+name: gh-round4-skills
+description: Skills path probe under skills/**/SKILL.md for GitHub sync GH-4.
+---
+
+# GH Round 4 Skills
+
+Use this skill for skills/** discovery on GitHub round GH-4.
+
+## Instructions
+
+1. Confirm path is `skills/gh-round4/SKILL.md`.
+2. Added 2026-11-11T13:36Z GH-4.
