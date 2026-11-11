@@ -1,7 +1,7 @@
 {
   "name": "tree-403-test",
-  "version": "0.2.0",
-  "description": "GitHub sync test refreshed 2026-11-11T10:28Z",
+  "version": "0.3.0",
+  "description": "GitHub sync test refreshed 2026-11-11T12:22Z GH-3",
   "dependencies": {
     "lodash": "4.17.15"
   }

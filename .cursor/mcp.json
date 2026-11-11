@@ -3,7 +3,7 @@
     "GitLab": {
       "type": "http",
       "url": "https://gitlab.com/api/v4/mcp",
-      "description": "GitLab MCP for Port incremental sync tests (refreshed 2026-11-11T10:28Z)"
+      "description": "GitLab MCP for Port incremental sync tests (refreshed 2026-11-11T12:22Z GH-3)"
     }
   }
 }
