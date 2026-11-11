@@ -10,4 +10,4 @@ Use this skill when testing skill ingestion from `skills/**/SKILL.md`.
 ## Instructions
 
 1. Confirm the file path matches `skills/**/SKILL.md`.
-2. Last refreshed 2026-11-08T16:39Z for GitHub sync round GH-1.
+2. Last refreshed 2026-11-11T10:28Z for GitHub sync round GH-2.

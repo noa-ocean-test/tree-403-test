@@ -8,6 +8,7 @@
 # Skills and plugin files
 skills/ @noa-mashevich5
 .claude-plugin/ @noa-mashevich5
+.cursor-plugin/ @noa-mashevich5
 agents/ @noa-mashevich5
 
 # Docs and tests
@@ -19,4 +20,5 @@ newdir3/ @noa-mashevich5
 testsss/ @noa-mashevich5
 
 bulk-gh-1/ @noa-mashevich5
-# refreshed 2026-11-08T16:39Z GH-1
+bulk-gh-2/ @noa-mashevich5
+# refreshed 2026-11-11T10:28Z GH-2
