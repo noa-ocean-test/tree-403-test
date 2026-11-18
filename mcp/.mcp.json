@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "GitLab": {
+      "type": "http",
+      "url": "https://gitlab.com/api/v4/mcp",
+      "description": "Folder GitLab MCP for Port incremental sync tests (added 2026-11-18T15:53Z)"
+    },
+    "demo-folder": {
+      "command": "node",
+      "args": ["server.js"],
+      "env": {
+        "PLUGIN_ENV": "folder-test",
+        "PLUGIN_REFRESH": "2026-11-18T15:53Z"
+      }
+    }
+  }
+}
