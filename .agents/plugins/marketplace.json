@@ -1,0 +1,16 @@
+{
+  "name": "tree-403-test-agents-marketplace",
+  "description": "Agents marketplace manifest for GitHub PLUGIN_MANIFEST_PATHS sync",
+  "version": "0.1.0",
+  "author": {
+    "name": "Noa"
+  },
+  "updated": "2026-11-19T15:46Z",
+  "plugins": [
+    {
+      "name": "tree-403-test",
+      "description": "Primary plugin entry for marketplace sync",
+      "version": "0.1.0"
+    }
+  ]
+}
